@@ -13,14 +13,6 @@ from metagpt.team import Team
 # Import actions from our module
 from examples.novel.actions.write_outline import GenerateOutline
 
-
-
-
-
-
-
-
-
 class WriteChapter(Action):
     """撰写具体章节内容的行动"""
     PROMPT_TEMPLATE: str = """

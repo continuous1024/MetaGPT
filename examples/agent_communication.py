@@ -66,7 +66,9 @@ class AgentB(Role):
         self.set_actions([AgentBAction])  # 由于智能体只有1种action，所以不用改写_think函数。
 
         # 订阅消息
-        self._watch({AgentAAction, AgentDAction})
+        # self._watch({AgentAAction, AgentDAction})
+        self._watch({AgentAAction})
+
         
 
 class AgentCAction(Action):
