@@ -24,3 +24,4 @@ class GenerateOutline(Action):
         prompt = self.PROMPT_TEMPLATE.format(theme=theme)
         outline = await self._aask(prompt)
         return outline
+
