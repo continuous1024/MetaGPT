@@ -155,6 +155,7 @@ allure-results
 key.yaml
 /data/
 data.ms
+config/config2.yaml
 examples/nb/
 examples/default__vector_store.json
 examples/docstore.json
